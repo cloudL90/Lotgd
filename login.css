@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+}
+
+
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    width: 100%;
+    height: 800px;
+    border: 1px solid black;
+    background-color: black;
+}
+
+.container > div{
+    border: 1px solid black
+}
+
+.header, .footer{
+    grid-column-start: 1;
+    grid-column-end:5 ;
+}
+
+.menu{
+    grid-row-start: 2;
+    grid-row-end: 9;
+}
+
+.main{
+    grid-row-start: 2;
+    grid-row-end: 9;
+    grid-column-start: 2 ;
+    grid-column-end: 4;
+    background-image: url("pergamena.jpg");
+    background-repeat: no-repeat ;
+    background-size: 100% 100%;
+}
+
+.sideview{
+    grid-row-start: 2;
+    grid-row-end: 9;
+}
+
+.header{
+    background-color: black;
+    color: green;
+    text-align: center;
+    
+    
+    
+}
+
+.header span{
+    position: relative;
+    top: 1.5rem;
+    font-size: xx-large;
+
+}
+
+
+
