@@ -57,5 +57,93 @@
 
 }
 
+ span, img{
+    float: left;
+ }
 
+ @keyframes dragons{
+    from{transform:rotate(0deg)}
+    to{transform: rotate(-360deg);}
+ }
+
+ img{
+    height: 4rem;
+    width: 4rem;
+    margin-top: 0.7rem;
+    transform: rotate(0deg);
+    animation:dragons 5s ease-in-out 0s infinite;
+    
+ }
+ #left{
+    margin-left: 35%;
+    margin-right: 9%;
+ }
+
+ #right{
+    margin-left: 9%;
+ }
+
+ /*----------------------------------------------------------------------------------------------------
+ /*---------------------------------------------MENU---------------------------------------------------*/
+ .titles{
+    box-sizing: border-box;
+    background-color: linen;
+    height: 5%;
+    width: 70%;
+    margin:auto;
+    text-align: center;
+    border-radius: 10%;
+    color: orangered;
+ }
+
+ .text{
+    color: green;
+    text-decoration: none;
+    
+  }
+  .firstletter{
+    color: rgb(63, 206, 63);;
+    
+  }
+
+ 
+ .menu span:hover{
+    background-color: rgba(255, 255, 255, 0.3);
+    width: 100%;
+ }
+
+.line{
+    width: 100%;
+    height: 0.2%;
+    background-color: rgb(63, 206, 63);
+    opacity: 0.5;
+}
+
+
+/*-----------------------------------------------------------------------------------------------------
+-----------------------------------------------MAIN--------------------------------------------------*/
+.main{
+    display: grid;
+    grid-template-columns: auto;
+}
+.uppermain{
+    grid-row-start: 1;
+    grid-row-end: 5;
+}
+.fonts{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    border: 1px solid black;
+
+}
+.username {
+    text-align: center;
+    margin-left: 8rem;
+}
+.password {
+    text-align: center;
+    margin-right: 8rem;
+}
 
