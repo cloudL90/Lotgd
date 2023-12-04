@@ -1,15 +1,22 @@
 {
   "pg": [
     {
-      "pg": {
-        "title": "Contadino",
-        "name": "Roccobarocco",
-        "password": "123",
-        "samePassword": "123",
-        "email": "schifo.email@gg.com",
-        "gender": "Maschio"
-      },
+      "title": "Contadino",
+      "name": "Roccobarocco",
+      "password": "123",
+      "samePassword": "123",
+      "email": "schifo.email@gg.com",
+      "gender": "Maschio",
       "id": 1
+    },
+    {
+      "title": "Contadino",
+      "name": "erchiko",
+      "password": "345",
+      "samePassword": "345",
+      "email": "porcatroia@yahoo.com",
+      "gender": "Maschio",
+      "id": 2
     }
   ]
 }

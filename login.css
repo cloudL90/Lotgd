@@ -31,7 +31,7 @@
     grid-row-end: 9;
     grid-column-start: 2 ;
     grid-column-end: 4;
-    background-image: url("pergamena.jpg");
+    background-image: url("./assets/pergamena.jpg");
     background-repeat: no-repeat ;
     background-size: 100% 100%;
 }
@@ -119,6 +119,17 @@
     opacity: 0.5;
 }
 
+#red1, #red2, #red3{
+    color:red
+}
+
+#blue1, #blue2{
+    color: lightblue;
+}
+
+#orange1, #orange2{
+    color:orange
+}
 
 /*-----------------------------------------------------------------------------------------------------
 -----------------------------------------------MAIN--------------------------------------------------*/

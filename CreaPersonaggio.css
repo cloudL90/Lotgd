@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    background-image: url("./assets/logo.jpg");
+    background-repeat: no-repeat;
+    background-size: 28rem 28rem;
+    background-position: top 2.5rem right 7.5rem;
+    
+  
+}
+
+form{
+    background-image: url("./assets/pergamena.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 70%;
+    height: 25rem;
+    border: 2px solid gold;
+    font-weight: bolder;
+    color: black;
+    
+}
+form .headlb{
+    margin-left: 5rem; 
+}
+form p{
+    margin-left:9% ;
+}
+form .radiolb{
+    margin-left: 7%;
+}
+
+h1{
+    width: 30%;
+    text-align: right;
+    margin-left: 15rem;
+    color: darkgreen;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+form button{
+    margin-left: 24rem;
+    background-color: rgba(255, 215, 0, 0.5)
+}

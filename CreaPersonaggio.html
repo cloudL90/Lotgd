@@ -4,25 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Logd</title>
+    <link rel="stylesheet" href="CreaPersonaggio.css">
 </head>
 <body>
     <script src="./scripts/CreaPersonaggio.js" defer></script>
-    <h1>Crea un personaggio</h1>
+    <h1>Crea Un Personaggio</h1>
     <form>
-        <label for="name">Con che nome sarai noto in questo mondo?</label>
-        <input type="text" id="name" name="name">
-        <label for="password">Digita una password</label>
+        <br><br>
+        <label class="headlb" for="name">Con che nome sarai noto in questo mondo?</label>
+        <input type="text" id="name" name="name"> <br> <br>
+        <label class="headlb" for="password">Digita una password</label>
         <input type="password" id="password" name="pippo">
-        <label for="samePassword">Riscrivi la password</label>
-        <input type="password" id="samePassword" name="samePassword">
-        <label for="email">Digita il tuo indirizzo e-mail</label>
-        <input type="email" id="email" name="email" required>
+        <label class="headlb" for="samePassword">Riscrivi la password</label>
+        <input type="password" id="samePassword" name="samePassword"> <br> <br>
+        <label class="headlb"for="email">Digita il tuo indirizzo e-mail</label>
+        <input type="email" id="email" name="email" required> <br><br>
         <p for="gender">E sei</p>
-        <input type="radio" id="female" name="gender" value="Femmina">
+        <input class="radiolb" type="radio" id="female" name="gender" value="Femmina">
         <label for="female">Femmina</label>
         <input type="radio" id="male" name="gender" value="Maschio">
         <label for="male">Maschio</label>
-        <br>
+        <br> <br> <br> <br>
         <button>Crea il personaggio</button>
     </form>
 </body>
