@@ -18,5 +18,13 @@
       "gender": "Maschio",
       "id": 2
     }
+  ],
+
+  "Races": [
+    "Troll",
+    "Elfo",
+    "Umano",
+    "Nano",
+    "Druido"
   ]
 }

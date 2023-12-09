@@ -46,3 +46,7 @@ form button{
     margin-left: 24rem;
     background-color: rgba(255, 215, 0, 0.5)
 }
+
+.fa {
+    cursor: pointer;
+}

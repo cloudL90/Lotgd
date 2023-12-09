@@ -12,6 +12,21 @@ body{
     width: 100%;
     height: 30rem
 }
+
+.listaRazze {
+    color: green;
+    list-style-type: none;
+}
+
+.listaRazze li {
+    cursor: pointer;
+}
+
+.listaRazze li:hover {
+    color: white;
+    background-color: grey;
+}
+
 /* MAIN -----------------------------------------------------------------------------------------*/
 #main{
     background-image: url("./assets/pergamena.jpg");
