@@ -4,7 +4,7 @@
 
 body{
     background-color: black;
-    background-image: url("./assets/logo.jpg");
+    background-image: url("../assets/logo.jpg");
     background-repeat: no-repeat;
     background-size: 28rem 28rem;
     background-position: top 2.5rem right 7.5rem;
@@ -13,9 +13,12 @@ body{
 }
 
 form{
-    background-image: url("./assets/pergamena.jpg");
+    background-image: url("../assets/pergamena.jpg");
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: 107% 107%;
+    background-position-x: -1.9rem;
+    background-position-y: -1.1rem;
+    border-radius: 25px;
     width: 70%;
     height: 25rem;
     border: 2px solid gold;

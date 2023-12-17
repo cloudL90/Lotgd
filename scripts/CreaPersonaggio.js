@@ -36,11 +36,25 @@ button.addEventListener("click", () => {
             "Content-type": "application/json; charset=UTF-8"
         }
     });
-    } else {
-        alert("Le password devono coincidere")
+    }else {
+        button.disabled = true;
+        alert("Le password devono coincidere");
     }
 
     pwd[1].setAttribute("type", "password");
     pwd[2].setAttribute("type", "password");
     form.reset();
 });
+
+function checkForm(){
+    if(form.name.value !== "" && form.email.value !== ""
+    && form.password.value !== "" && form.samePassword.value !== ""
+    ){
+        console.log(form);
+        button.disabled = false
+    }
+    else {
+        console.log("quello che ti pare");
+    }
+}
+

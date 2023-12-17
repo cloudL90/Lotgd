@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+/* div containers calls--------------------------------------------------------------*/
+.container{
+    width: 100%;
+    height: 550px;
+    border: 1px solid green;
+}
+
+.menu, .main, .sidebar{
+    float: left;
+}
+
+.menu{
+    overflow: hidden;
+    width: 15%;
+    height: inherit ;
+    border: 1px solid gold;
+}
+.main{
+    overflow: hidden;
+    width: 70%;
+    height: inherit;
+    border: 1px solid blue;
+}
+.sidebar{
+    overflow: hidden;
+    width:15% ;
+    height: inherit;
+    border: 1px solid red;
+}
+/*MENU-------------------------------------------------------------------------------------------------*/
+.innermenu{
+    list-style-type: none;
+    
+    
+}
+.innermenu li{
+    text-decoration: none;
+    
+    
+}
+.innermenu a{
+    color: green ;
+    text-decoration: none;
+    
+}
+
+.innermenu li::first-letter{
+    text-decoration: underline;
+    color: white;
+}
+.innermenu li:first-child{
+    margin: 0 0.7em;
+}
+
+
+/*MAIN-------------------------------------------------------------------------------------------------*/
+.main{
+    background-image: url("../assets/pergamena.jpg");
+    background-repeat: no-repeat ;
+    background-size: 105% 105%;
+    background-position-x: -1.5rem;
+    background-position-y: -1.1rem;
+}
+
+caption{
+    text-align: center;
+    color: black;
+    font-size: 1em;
+    font-weight: bold;
+    margin-top: 1rem;
+    
+}
+table{
+    text-align: center;
+    margin: 0 auto;
+    width: fit-content;
+    border-collapse: collapse;
+    background-color: rgba(56, 71, 71, 0.8);
+    color: white;
+}
+th, td{
+    border-right: 1px solid white;
+}
+
+#lastChild{
+    border: none;
+}
+/*SIDEBAR---------------------------------------------------------------------------------------------*/
